@@ -378,16 +378,19 @@ body {
   color: var(--primary);
 }
 
-.products .product-stars .star-full {
+.products .product-stars .star-full,
+.modal .product-stars .star-full {
   fill: var(--primary);
 }
 
-.products .product-price {
+.products .product-price,
+.modal .product-price {
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-.products .product-price span {
+.products .product-price span,
+.modal .product-price span {
   text-decoration: line-through;
   font-weight: lighter;
   font-size: 1rem;
@@ -498,7 +501,7 @@ footer .credit a {
   position: relative;
   background-color: #fefefe;
   color: var(--bg);
-  margin: 15% auto;
+  margin: 13% auto;
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
@@ -557,6 +560,10 @@ footer .credit a {
   color: #fff;
   margin-top: 1rem;
   padding: 1rem 1.6rem;
+}
+
+.modal .product-stars {
+  color: var(--primary);
 }
 
 /* media queries */
